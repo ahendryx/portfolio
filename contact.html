@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300|Oswald:400&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/872b4bf343.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles/stylesheet.css">
+    <title>PORTFOLIO: Contact</title>
+  </head>
+
+<body>
+  <div class="container">
+
+    <header>
+      <h1>CONTACT</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="page-2.html">TBD PAGE</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <article class="main-content">
+      <h2>Get in Touch</h2>
+      <p>If you'd like to discuss an upcoming project or any other design needs you might have,
+      please send me your contact information.</p>
+
+      <form method="POST">
+
+        <div class="contact-info">
+          <label>NAME:
+            <input type="text" name="contactName">
+          </label>
+
+          <label>PHONE NUMBER:
+            <input type="text" name="contactPhone">
+          </label>
+
+          <label>EMAIL:
+            <input type="email" name="contactEmail">
+          </label>
+        </div>
+
+        <div class="questions">
+          <label>Which of these is best way to contact you?
+              <select class="dropdown" name="contactMethod">
+                <option value="email">Email</option>
+                <option value="phone">Phone</option>
+              </select>
+          </label>
+
+          <label>What time of day is most convenient?
+            <select name="timeframe">
+              <option value="">Please select</option>
+              <option value="morning">9am–12pm</option>
+              <option value="afternoon">12pm–4pm</option>
+              <option value="evening">4pm–6pm</option>
+            </select>
+          </label>
+        </div>
+
+        <div class="referral">
+          <fieldset>
+            <legend>How did you arrive at this website?</legend>
+
+              <label class="referrral-option">Personal referral
+                <input type="checkbox" name="referral" value="personal">
+                <span class="checkmark"></span>
+              </label>
+
+             <label class="referrral-option">Internet search
+               <input type="checkbox" name="referral" value="internet">
+               <span class="checkmark"></span>
+             </label>
+
+             <label class="referrral-option">LinkedIn
+               <input type="checkbox" name="referral" value="linked-in">
+               <span class="checkmark"></span>
+             </label>
+           </fieldset>
+         </div>
+
+         <textarea name="topic" rows="6" cols="100">Please tell me a bit about your project.</textarea>
+         <input type="submit" value="SEND">
+
+     </form>
+
+    </article>
+
+    <footer class="footer-content">CREATED BY A. HENDRYX, 2019</footer>
+  </div>
+
+</body>
+
+</html>
